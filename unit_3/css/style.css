@@ -1,0 +1,70 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-family: 'Inknut Antiqua', 'Open Sans', Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	color: #888888;
+	line-height: 1.8;
+}
+header {
+	background-image: url("../images/SONG-sitesplash.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-color: #000;
+	color: #fff;
+	padding: 20px;
+	height: 1000px;
+}
+p {
+	padding: 10px;
+}
+a {
+	color: #555555;
+	text-decoration: none;
+}
+nav a {
+	color: #999999;
+	font-style: italic;
+	margin-right: 10px;
+}
+img {
+	width: 100%;
+}
+main {
+	padding: 20px;
+}
+footer {
+	background-color: #000;
+	padding: 20px;
+	text-align: center;
+}
+h1, h3, h4, h5 {
+	margin: 20px 0;
+}
+aside {
+	float: right;
+	padding: 20px;
+	margin: 20px;
+	border: 2px solid grey;
+}
+.logo-float {
+	margin-left: 45%;
+	padding-top: 30px;
+}
+.logo {
+	width: 200px;
+}
+.slogan {
+	font-size: 12px;
+}
+.about {
+	padding: 20px;
+}
+.tickets {
+	padding: 20px;
+}
+.performers {
+	padding-top: 20px;
+}
