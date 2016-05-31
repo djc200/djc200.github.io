@@ -163,6 +163,8 @@ aside h2 {
 #footer {
 	background-color: #000;
 	padding: 2em;
-	text-align: center;
 	margin: auto;
+}
+.copyright {
+	text-align: center;
 }
