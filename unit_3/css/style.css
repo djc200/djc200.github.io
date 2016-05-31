@@ -6,7 +6,7 @@ body {
 	font-family: 'Inknut Antiqua', 'Open Sans', Helvetica, Arial, sans-serif;
 	font-size: 20px;
 	color: #888888;
-	line-height: 1.8;
+	line-height: 2em;
 }
 header {
 	background-image: url("../images/SONG-sitesplash.jpg");
@@ -19,6 +19,8 @@ header {
 }
 p {
 	padding: 10px;
+	margin: 2em;
+	font-family: 'Open Sans'
 }
 a {
 	color: #555555;
@@ -41,7 +43,7 @@ footer {
 	text-align: center;
 }
 h1, h3, h4, h5 {
-	margin: 20px 0;
+	margin: 2em;
 }
 aside {
 	float: right;
@@ -60,11 +62,11 @@ aside {
 	font-size: 12px;
 }
 .about {
-	padding: 20px;
+	padding: 2em;
 }
 .tickets {
 	padding: 20px;
 }
 .performers {
-	padding-top: 20px;
+	padding: 2em;
 }
