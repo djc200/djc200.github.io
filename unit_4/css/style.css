@@ -8,6 +8,7 @@
 * {
 	padding: 0;
 	margin: 0;
+	box-sizing: border-box;
 }
 body {
 	/*font-family: 'IM Fell Great Primer SC', 'Open Sans', Helvetica, Arial, sans-serif;*/
@@ -67,19 +68,20 @@ nav a {
 }
 img {
 	width: 100%;
-	padding-top: 2em;
+	/* padding-top: 2em; */
 	margin: auto;
 }
 main {
-	padding: 2em;
+	/* padding: 2em; */
+	clear: both;
 }
 aside {
 	padding-top: 2em;
 	border: 2px solid grey;
-	width: 30em;
-	margin: auto;
-	margin-bottom: 4em;
-	margin-top: 4em;
+	position: fixed;
+	right: 1em;
+	z-index: 1;
+	top: 12em;
 }
 aside h2 {
 	color:#CCC;
@@ -97,7 +99,7 @@ aside h2 {
 	width: 30%;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 2em;
+	/* padding: 2em; */
 	border-radius: 50%;
 }
 .logo-float {
@@ -126,7 +128,7 @@ aside h2 {
 	margin: 1em auto;
 }
 .director {
-	padding: 1em;
+	/* padding: 1em; */
 	width: 30em;
 	margin: 2em auto;
 }
@@ -136,7 +138,7 @@ aside h2 {
 	margin: 2em auto;
 }
 .performers {
-	padding: 2em;
+	/* padding: 2em; */
 	width: 30em;
 	margin: 2em auto;
 }
@@ -152,13 +154,11 @@ aside h2 {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-color: #000;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
 	color: #fff;
 	padding: 20px 0;
-	height: 1000px;
+	height: 100vh;
+	position:relative;
+	z-index:2;
 }
 #footer {
 	background-color: #000;
