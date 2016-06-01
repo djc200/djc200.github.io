@@ -127,11 +127,11 @@ aside h2 {
 	width: 30em;
 	margin: 1em auto;
 }
-.director {
-	/* padding: 1em; */
+/*.director {
+	padding: 1em;
 	width: 30em;
 	margin: 2em auto;
-}
+}*/
 .tickets {
 	padding: 20px;
 	width: 30em;
@@ -140,7 +140,9 @@ aside h2 {
 .performers {
 	/* padding: 2em; */
 	width: 30em;
-	margin: 2em auto;
+	margin: 5em auto;
+	/*padding-top: 10em;
+	padding-bottom: 10em;*/
 }
 .performers h1 {
 	color: #CCC;
