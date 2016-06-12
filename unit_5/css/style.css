@@ -16,6 +16,16 @@ body {
 	color: #999;
 	background: black;
 }
+header {
+	background-color: #FFED74;
+	width: 20%;
+	display:block;
+	margin-left: 50em;
+	margin-right: auto;
+	padding-top: 3em;
+	/*padding-left: 15em;*/
+	border: 0px solid red;
+}
 h1 {
 	font-family: 'Ovo';
 	font-size: 2.25em;
@@ -53,6 +63,11 @@ a {
 	border-bottom: medium dotted #ff0000;
 	padding-bottom: 2px;
 }
+nav {
+	background-color: #E8C66A;
+	padding: 10px;
+	width: 50%;
+}
 nav a {
 	font-family: 'Muli', sans-serif;
 	border: none;
@@ -76,6 +91,7 @@ main {
 	clear: both;
 }
 aside {
+	background-color: #FFC675;
 	padding-top: 2em;
 	border: 2px solid grey;
 	position: fixed;
@@ -101,15 +117,6 @@ aside h2 {
 	margin-right: auto;
 	/* padding: 2em; */
 	border-radius: 50%;
-}
-.logo-float {
-	width: 20%;
-	display:block;
-	margin-left: auto;
-	margin-right: auto;
-	padding-top: 3em;
-	padding-left: 15em;
-	border: 0px solid red;
 }
 .logo {
 	width: 200px;
