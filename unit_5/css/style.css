@@ -102,6 +102,9 @@ aside {
 aside h2 {
 	color:#CCC;
 }
+section {
+	background-color: #FFE2B8;
+}
 .showdates {
 	text-decoration: none;
 	font-family: 'Muli', sans-serif;
@@ -169,8 +172,8 @@ aside h2 {
 	position:relative;
 	z-index:2;
 }
-#footer {
-	background-color: #000;
+footer {
+	background-color: #FF957E;
 	padding: 2em;
 	margin: auto;
 }
