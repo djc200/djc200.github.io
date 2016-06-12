@@ -1,0 +1,172 @@
+/*@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,600);
+@import url(https://fonts.googleapis.com/css?family=Inknut+Antiqua|IM+Fell+Great+Primer+SC);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display);
+@import url(https://fonts.googleapis.com/css?family=Fauna+One);*/
+@import url(https://fonts.googleapis.com/css?family=Ovo);
+@import url(https://fonts.googleapis.com/css?family=Muli);
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	/*font-family: 'IM Fell Great Primer SC', 'Open Sans', Helvetica, Arial, sans-serif;*/
+	font-size: 16px;
+	color: #999;
+	background: black;
+}
+h1 {
+	font-family: 'Ovo';
+	font-size: 2.25em;
+	text-align: center;
+}
+h2 {
+	font-family: 'Ovo';
+	color: #CCC;
+	text-align: center;
+	font-size: 2em;
+}
+h3 {
+	font-family: 'Ovo';
+	color: #CCC;
+	text-align: center;
+	font-size: 1.5em;
+}
+p {
+	margin: 1.5em;
+	font-family: 'Muli', sans-serif;
+	font-size: 1em;
+	line-height: 1.5em;
+	text-align: justify;
+}
+hr {
+	border: none;
+	height: 3px;
+	background-color: #3c3c3c;
+	width: 2em;
+	margin: 1em auto;
+}
+a {
+	color: #999;
+	text-decoration: none;
+	border-bottom: medium dotted #ff0000;
+	padding-bottom: 2px;
+}
+nav a {
+	font-family: 'Muli', sans-serif;
+	border: none;
+	color: #999999;
+	padding: 0 1.5em;
+	/*margin-right: 10px;
+	margin-left: 2em;*/
+	margin-left: 1.5em;
+	text-transform: uppercase;
+	font-weight: 600;
+	/*background: purple;*/
+	letter-spacing: 2px;
+}
+img {
+	width: 100%;
+	/* padding-top: 2em; */
+	margin: auto;
+}
+main {
+	/* padding: 2em; */
+	clear: both;
+}
+aside {
+	padding-top: 2em;
+	border: 2px solid grey;
+	position: fixed;
+	right: 1em;
+	z-index: 1;
+	top: 12em;
+}
+aside h2 {
+	color:#CCC;
+}
+.showdates {
+	text-decoration: none;
+	font-family: 'Muli', sans-serif;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+}
+.cast {
+	display: block;
+	width: 30%;
+	margin-left: auto;
+	margin-right: auto;
+	/* padding: 2em; */
+	border-radius: 50%;
+}
+.logo-float {
+	width: 20%;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 3em;
+	padding-left: 15em;
+	border: 0px solid red;
+}
+.logo {
+	width: 200px;
+	margin-left: 10px;
+}
+.slogan {
+	font-size: 1em;
+	font-family: 'Ovo';
+	text-align: left;
+	width: 11em;
+	margin-top: 5px;
+}
+.about {
+	padding-top: 2em;
+	width: 30em;
+	margin: 1em auto;
+}
+/*.director {
+	padding: 1em;
+	width: 30em;
+	margin: 2em auto;
+}*/
+.tickets {
+	padding: 20px;
+	width: 30em;
+	margin: 2em auto;
+}
+.performers {
+	/* padding: 2em; */
+	width: 30em;
+	margin: 5em auto;
+	/*padding-top: 10em;
+	padding-bottom: 10em;*/
+}
+.performers h1 {
+	color: #CCC;
+}
+.performers h2 {
+	color: #CCC;
+	text-align: center;
+}
+#lander {
+	background-image: url("../images/SONG-sitesplash.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #000;
+	color: #fff;
+	padding: 20px 0;
+	height: 100vh;
+	position:relative;
+	z-index:2;
+}
+#footer {
+	background-color: #000;
+	padding: 2em;
+	margin: auto;
+}
+.copyright {
+	text-align: center;
+}

@@ -1,0 +1,160 @@
+@import url(https://fonts.googleapis.com/css?family=Racing+Sans+One);
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text);
+@import url(https://fonts.googleapis.com/css?family=Allerta);
+
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+body{
+	background-color: #201828;
+	font-size: 16px; /*1em = 16px*/
+	text-align: center;
+	position: relative;
+}
+
+header{
+	padding:0 200px;
+}
+
+nav{
+	margin:auto;
+}
+
+main{
+	background-color: #F1E9E4;
+	color:#3C3C3C;
+	padding:50px 0;
+}
+
+section{
+	padding:50px 0;
+}
+
+footer{
+	background:url(../assets/stars.jpg) no-repeat center center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color:#3C3C3C;
+	padding:50px 0;
+}
+
+h1{
+	font-family: 'Racing Sans One', sans-serif;
+	font-weight: normal;
+	font-size:60px;
+	text-align:center;
+	color:#fff;
+	margin:200px 0 0;
+}
+
+h2,
+h3,
+h4{
+	font-family: 'Allerta', 'Arial', sans-serif;
+}
+
+h2{
+	font-size:3em;
+}
+
+h3{
+	font-size:2.25em;
+}
+
+h4{
+	font-size:1.5em;
+	text-align:center;
+}
+
+hr{
+	border:none;
+	height:3px;
+	background-color: #3C3C3C;
+	width:2em;
+	margin:1em auto;
+}
+
+p{
+	font-family: 'Crimson Text', serif;
+	font-size:1em;
+	line-height: 1.5em;
+}
+
+ul{
+	list-style:none;
+}
+
+li{
+	font-family: 'Crimson Text', serif;
+}
+
+a{
+	text-decoration:none;
+	color:#000;
+	border-bottom: 1px solid #000;
+	padding-bottom:2px;
+}
+
+img{
+	width:100%;
+}
+
+.navlinks{
+	font-family: 'Allerta', sans-serif;
+	color:#fff;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 2px;
+	
+
+	padding:20px;
+
+/*	padding-top: 10px;
+	padding-right: 40px;
+	padding-bottom: 20px;
+	padding-left: 40px;*/
+
+
+
+
+    margin: 0 20px;
+    border:none;
+    background-color: purple;
+}
+
+.neils{
+ 	width:30em;
+ 	margin:2em auto;
+ 	background-color: orange;
+}
+
+.planet{
+	width:500px;
+	margin:50px auto;
+	padding:20px 0 40px;
+}
+
+#lander{
+	background:url(../assets/carina-nebula.jpg) no-repeat center center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height:750px;
+	padding:20px 0;
+}
+
+#planets{
+	background-color:#000;
+	color:#F1E9E4;
+}
+
+#planets-rule{
+
+}
